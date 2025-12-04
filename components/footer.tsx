@@ -74,6 +74,7 @@ export function Footer() {
         <div className="mt-12 border-t border-border pt-8">
           <p className="text-sm text-muted-foreground text-center">
             © {new Date().getFullYear()} TravelFlow. All rights reserved.
+            @copyright 2025 Act
           </p>
         </div>
       </div>
