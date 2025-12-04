@@ -103,7 +103,7 @@ export function Pricing() {
               </ul>
               <Button
                 className={cn(
-                  "mt-8 w-full",
+                  "mt-8 w-full cursor-pointer",
                   plan.highlighted
                     ? "bg-foreground text-background hover:bg-foreground/90"
                     : "bg-secondary text-foreground hover:bg-secondary/80"

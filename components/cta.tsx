@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export function CTA() {
   return (
@@ -16,17 +16,17 @@ export function CTA() {
           <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
             <Button
               size="lg"
-              className="bg-foreground text-background hover:bg-foreground/90"
+              className="bg-foreground text-background hover:bg-foreground/90 cursor-pointer"
             >
-              Start Free Trial
+              <a href="#pricing">Start Free Trial</a>
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-border text-foreground hover:bg-secondary bg-transparent"
+              className="border-border text-foreground hover:bg-secondary bg-transparent cursor-pointer"
             >
-              Browse Sample Trips
+              <a href="#features"> Browse Sample Features</a>
             </Button>
           </div>
           <p className="mt-4 text-sm text-muted-foreground">

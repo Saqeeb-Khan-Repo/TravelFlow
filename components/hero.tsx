@@ -28,7 +28,7 @@ export function Hero() {
                 variant="outline"
                 className="border-border text-foreground hover:bg-secondary bg-transparent"
               >
-                Plan Now
+                <a href="#testimonials"> Plan Now</a>
               </Button>
             </div>
           </div>
