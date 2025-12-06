@@ -1,8 +1,9 @@
 "use client";
-
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Zap } from "lucide-react";
+
 const navLinks = [
   { name: "Features", href: "#features" },
   { name: "Testimonials", href: "#testimonials" },
@@ -40,10 +41,10 @@ export function Header() {
             variant="ghost"
             className="text-muted-foreground hover:text-foreground cursor-pointer"
           >
-            Log in
+            <a href="#login">Login</a>
           </Button>
           <Button className="bg-foreground text-background hover:bg-foreground/90 cursor-pointer">
-            Sign up
+            <a href="#signUp">Sign up</a>
           </Button>
         </div>
 

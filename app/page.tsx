@@ -7,6 +7,7 @@ import { Pricing } from "@/components/pricing";
 import { CTA } from "@/components/cta";
 import { Footer } from "@/components/footer";
 import { About } from "@/components/about";
+import SignupPage from "@/components/signUp";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         <Pricing />
         <CTA />
         <About />
+        <SignupPage />
+
         <Footer />
       </main>
     </>
